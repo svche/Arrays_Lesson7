@@ -80,7 +80,7 @@ namespace HW
 
             for (int i = 0; i < N; i++)
             {
-                max = 
+                
             }
 
             
