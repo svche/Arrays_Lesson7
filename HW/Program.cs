@@ -57,7 +57,7 @@ namespace HW
 //Вывести на экран массив, после чего максимальное и минимальное 
 //значение с указанием номера этих элементов в массиве.
 // + sorting
-
+/*
             
             int[] mas = { 8, 24, 3, 1, 0, 35, 15 };
 
@@ -87,7 +87,7 @@ namespace HW
             Console.WriteLine("\nMaximum number: {0}. Element index: {1} \n", max, numMax);
 
             // sorting            
-            /**/
+            
             for (int j = 0; j < mas.Length; j++)
             {
                 min = mas[j];
@@ -104,7 +104,7 @@ namespace HW
             }
             
                 foreach (int x in mas) Console.Write(" {0}", x);
-
+*/
 
 
             Console.ReadLine();
