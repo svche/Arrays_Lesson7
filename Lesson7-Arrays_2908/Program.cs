@@ -87,11 +87,11 @@ namespace Lesson7_Arrays_2908
             Console.WriteLine("Average height of the student is: {0}", srRost);
             */
 
-    //         Задача 7.6
-  //Создать матрицу. Заполнить ее числами, равными сумме номеров строки столбцов.
-  //Вывести матрицу на экран.
+            //         Задача 7.6
+            //Создать матрицу. Заполнить ее числами, равными сумме номеров строки столбцов.
+            //Вывести матрицу на экран.
 
-            /*
+            /* 
 
             int N = 10;
 
@@ -111,6 +111,38 @@ namespace Lesson7_Arrays_2908
                 Console.WriteLine();
             }
             */
+
+
+   //         Задача 7.7
+   //Создать матрицу для треугольника паскаля.Вывести ее на экран.
+/*
+            int n = 9;
+
+            int[][] PT = new int[n][];
+
+            for (int i = 0; i < n; i++)
+            {
+                PT[i] = new int[i + 1];
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j <= i; j++)
+                {
+                    if (j == 0 || j == i)
+                    {
+                        PT[i][j] = 1;
+                    } else
+                    {
+                    PT[i][j] = PT[i-1][j-1] + PT[i-1][j];
+                    }
+                Console.Write(PT[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+*/
+            
+
 
 
             Console.ReadLine();
